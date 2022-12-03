@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Главная</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		@@include('html/header.html', {})
+		<main class="page">
+			<div data-observ></div>
+			<div class="conteiner">
+				<section class="underheader">
+					<div class="underheader__content">
+						<h1 class="underheader__title">Hi, I am John, <br>
+							Creative Technologist</h1>
+						<p class="underheader__pgf">
+							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+							consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+						</p>
+						<ul class="underheader__btn">
+							<li class="btn__item"><a href="#" class="btn__link">Download Resume</a></li>
+						</ul>
+					</div>
+					<div class="underheader__logo">
+						<img src="@img/face.svg" alt="face">
+					</div>
+				</section>
+			</div>
+			<section class="card">
+				<div class="card__text">
+					<h2 class="card__title">Recent posts</h2>
+					<a href="#" class="card__link">View all</a>
+				</div>
+				<div class="card__conteiner">
+					<div class="card__body">
+						<h2 class="body__title">Making a design system from scratch</h2>
+						<p class="body__address">12 Feb 2020 | Design, Pattern</p>
+						<p class="body__pgf">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+							sint.
+							Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+							nostrud
+							amet.</p>
+					</div>
+					<div class="card__body">
+						<h2 class="body__title">Creating pixel perfect icons in Figma</h2>
+						<p class="body__address">12 Feb 2020 | Figma, Icon Design</p>
+						<p class="body__pgf">Amet minim mollit non deserunt ullamco est sit <br> aliqua dolor do amet
+							sint.
+							Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+							nostrud
+							amet.</p>
+					</div>
+				</div>
+			</section>
+			<div class="conteiner">
+				<section class="works">
+					<h2 class="works__title">
+						Featured works
+					</h2>
+					<div class="works__conteiner">
+						<div class="works__image">
+							<img src="@img/Dashbord.svg" alt="image">
+						</div>
+						<div class="works__content">
+							<h3 class="conteiner__title">
+								Designing Dashboards
+							</h3>
+							<div class="conteiner__text">
+								<ul class="works__btn">
+									<li class="works__item"><a href="#" class="works__link">2020</a></li>
+								</ul>
+								<h4>Dashboard</h4>
+							</div>
+							<div class="works__pgf">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+								consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</div>
+
+						</div>
+						<hr>
+					</div>
+					<hr>
+					<div class="works__conteiner">
+						<div class="works__image">
+							<img src="@img/Illustration.svg" alt="image">
+						</div>
+						<div class="works__content">
+							<h3 class="conteiner__title">
+								Vibrant Portraits of 2020
+							</h3>
+							<div class="conteiner__text">
+								<ul class="works__btn">
+									<li class="works__item"><a href="" class="works__link">2018</a></li>
+								</ul>
+								<h4>Illustration</h4>
+							</div>
+							<div class="works__pgf">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+								consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</div>
+
+						</div>
+						<hr>
+					</div>
+					<hr>
+					<div class="works__conteiner">
+						<div class="works__image">
+							<img src="@img/Typografy.svg" alt="image">
+						</div>
+						<div class="works__content">
+							<h3 class="conteiner__title">
+								36 Days of Malayalam type
+							</h3>
+							<div class="conteiner__text">
+								<ul class="works__btn">
+									<li class="works__item"><a href="" class="works__link">2018</a></li>
+								</ul>
+								<h4>Typography</h4>
+							</div>
+							<div class="works__pgf">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+								consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</div>
+
+						</div>
+
+					</div>
+					<hr>
+				</section>
+			</div>
+
+
+
+		</main>
+		@@include('html/footer.html', {})
+	</div>
+	<!---Подключаем файл jqery-->
+	<script src="https://code.jquery.com/jquery-3.6.1.slim.js"
+		integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
